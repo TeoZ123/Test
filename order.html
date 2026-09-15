@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout · GleamJet Cordless Spin Scrubber · Northwick Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a1a1a;--muted:#5b6470;--line:#e6e8eb;--accent:#0f766e;--sale:#c2410c;--soft:#f6f7f8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--soft);color:var(--ink);font-family:Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.55}
+img{max-width:100%;display:block}
+.top{background:#fff;border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+.wrap{max-width:640px;margin:0 auto;padding:0 20px}
+.logo{font-weight:800;font-size:20px;letter-spacing:-.01em}
+.logo span{color:var(--accent)}
+.secure{font-size:13px;color:var(--muted)}
+.steps{display:flex;gap:8px;font-size:13px;color:var(--muted);margin:22px 0 6px}
+.steps b{color:var(--accent)}
+h1{font-size:26px;margin:6px 0 4px}
+h2{font-size:18px;margin:0 0 12px}
+.sub{color:var(--muted);margin:0 0 18px}
+.box{background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px;margin:0 0 16px}
+.timer{display:flex;align-items:center;justify-content:space-between;background:#fff7ed;border:1px solid #fdba74;color:#9a3412;border-radius:8px;padding:10px 14px;font-size:14px;font-weight:600;margin:0 0 16px}
+.tag{display:inline-block;background:var(--sale);color:#fff;font-weight:800;font-size:11px;letter-spacing:.12em;padding:3px 8px;border-radius:4px;margin-bottom:12px}
+.prod{display:flex;gap:16px;align-items:center;margin-bottom:14px}
+.prod img{width:110px;height:110px;border-radius:10px;object-fit:cover}
+.prod b{display:block;font-size:17px}
+.prod span{font-size:14px;color:var(--muted)}
+.stars{color:#f59e0b;font-size:14px;letter-spacing:1px}
+.stars small{color:var(--muted);letter-spacing:0;margin-left:6px}
+.pack{display:block;border:2px solid var(--line);border-radius:10px;padding:14px 16px;margin:10px 0;cursor:pointer}
+.pack input{position:absolute;opacity:0}
+.pack.on{border-color:var(--accent);background:#f0fdfa}
+.pack .row{display:flex;justify-content:space-between;align-items:center}
+.pack b{font-size:16px}
+.pack .p{font-weight:800;font-size:18px}
+.pack .p s{color:var(--muted);font-weight:500;font-size:14px;margin-right:6px}
+.pack small{color:var(--accent);font-weight:600}
+label{display:block;font-size:13px;font-weight:600;color:#333;margin:12px 0 5px}
+input[type=text],input[type=email],input[type=tel],select{width:100%;height:46px;border:1px solid #cfd4da;border-radius:8px;padding:0 12px;font:inherit;background:#fff}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pay{display:flex;gap:10px;margin-top:6px}
+.pay label{flex:1;margin:0;border:2px solid var(--line);border-radius:8px;padding:12px;text-align:center;font-weight:600;cursor:pointer;font-size:14px}
+.pay label.on{border-color:var(--accent);background:#f0fdfa}
+.pay input{position:absolute;opacity:0}
+.sum{display:flex;justify-content:space-between;padding:8px 0;font-size:15px;border-bottom:1px solid var(--line)}
+.sum.total{border:0;font-weight:800;font-size:19px;padding-top:12px}
+.btn{width:100%;background:var(--accent);color:#fff;border:0;border-radius:8px;font:inherit;font-weight:800;font-size:18px;padding:17px;margin-top:14px;cursor:pointer}
+.trust{display:flex;justify-content:space-around;font-size:12px;color:var(--muted);text-align:center;margin:18px 0 4px}
+.trust b{display:block;color:var(--ink);font-size:13px}
+.guarantee{display:flex;gap:16px;align-items:flex-start}
+.guarantee .seal{flex:none;width:64px;height:64px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;font-size:12px;line-height:1.1;display:flex;align-items:center;justify-content:center;text-align:center}
+.guarantee p{margin:4px 0 0;font-size:15px;color:#333}
+.review{border-top:1px solid var(--line);padding:14px 0 0;margin-top:14px}
+.review .who{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.review .who img{width:36px;height:36px;border-radius:50%;object-fit:cover}
+.review .who b{font-size:14px;display:block}
+.review .who span{font-size:12px;color:var(--muted)}
+.review p{margin:0;font-size:15px}
+details{border-bottom:1px solid var(--line);padding:12px 0}
+details:last-of-type{border:0}
+summary{cursor:pointer;font-weight:700;font-size:15px;list-style:none;display:flex;justify-content:space-between}
+summary:after{content:"+";color:var(--muted)}
+details[open] summary:after{content:"–"}
+details p{margin:8px 0 0;font-size:15px;color:#333}
+footer{text-align:center;font-size:12px;color:var(--muted);padding:26px 20px 40px}
+@media (max-width:520px){.grid2{grid-template-columns:1fr}.pay{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><div class="logo">Northwick<span>Home</span></div><div class="secure">🔒 Secure checkout</div></div></div>
+<main class="wrap">
+  <div class="steps"><b>1. Package</b> › <b>2. Shipping</b> › <span>3. Payment</span></div>
+  <h1>Almost there. Complete your order.</h1>
+  <p class="sub">Your 50% reader discount has been applied automatically.</p>
+
+  <div class="timer"><span>⏱ Your discount is reserved for</span><b id="t">09:58</b></div>
+
+  <!-- 商品信息区 -->
+  <section class="box" id="product">
+    <span class="tag">LAUNCH OFFER · 50% OFF</span>
+    <div class="prod"><img src="img/product-thumb.jpg" alt="GleamJet Cordless Spin Scrubber" width="110" height="110"><div><b>GleamJet Cordless Spin Scrubber</b><span>Handle · extension pole · 4 brush heads + free spare set · USB-C charger</span><div class="stars">★★★★★<small>4.8 · 2,314 verified reviews</small></div></div></div>
+    <p style="margin:0 0 6px;font-size:14px;color:var(--muted)">Choose your package</p>
+  </section>
+
+  <!-- 结账表单 -->
+  <form class="box" id="checkout" action="#" method="post" autocomplete="on" novalidate>
+    <label class="pack on"><input type="radio" name="package" value="1" checked><div class="row"><div><b>1× GleamJet</b><br><small>Most popular for one bathroom</small></div><div class="p"><s>$69.99</s>$34.99</div></div></label>
+    <label class="pack"><input type="radio" name="package" value="2"><div class="row"><div><b>2× GleamJet</b><br><small>Save an extra $10 · one for the kitchen</small></div><div class="p"><s>$139.98</s>$59.98</div></div></label>
+    <label class="pack"><input type="radio" name="package" value="3"><div class="row"><div><b>3× GleamJet</b><br><small>Best value · free gift wrapping</small></div><div class="p"><s>$209.97</s>$79.97</div></div></label>
+
+    <h2 style="margin-top:22px">Contact</h2>
+    <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email">
+
+    <h2 style="margin-top:22px">Shipping address</h2>
+    <div class="grid2"><div><label for="fn">First name</label><input id="fn" name="first_name" type="text" autocomplete="given-name"></div><div><label for="ln">Last name</label><input id="ln" name="last_name" type="text" autocomplete="family-name"></div></div>
+    <label for="addr">Street address</label><input id="addr" name="address1" type="text" autocomplete="address-line1">
+    <div class="grid2"><div><label for="city">City</label><input id="city" name="city" type="text" autocomplete="address-level2"></div><div><label for="zip">Postal code</label><input id="zip" name="zip" type="text" autocomplete="postal-code"></div></div>
+    <div class="grid2"><div><label for="country">Country</label><select id="country" name="country" autocomplete="country"><option>United States</option><option>United Kingdom</option><option>Canada</option><option>Australia</option><option>Germany</option></select></div><div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div></div>
+
+    <h2 style="margin-top:22px">Payment</h2>
+    <div class="pay">
+      <label class="on"><input type="radio" name="payment" value="card" checked>Credit / Debit Card</label>
+      <label><input type="radio" name="payment" value="paypal">PayPal</label>
+      <label><input type="radio" name="payment" value="cod">Cash on Delivery</label>
+    </div>
+
+    <h2 style="margin-top:22px">Order summary</h2>
+    <div class="sum"><span>1× GleamJet Cordless Spin Scrubber</span><span>$34.99</span></div>
+    <div class="sum"><span>Free spare brush head set</span><span>$0.00</span></div>
+    <div class="sum"><span>Shipping</span><span>FREE</span></div>
+    <div class="sum total"><span>Total</span><span>$34.99</span></div>
+    <button class="btn" type="submit">Complete Order · $34.99</button>
+    <div class="trust"><div><b>60-Day</b>Money-back guarantee</div><div><b>Ships in 24h</b>Regional warehouse</div><div><b>Secure</b>256-bit encryption</div></div>
+  </form>
+
+  <!-- 信任区 -->
+  <section class="box" id="guarantee">
+    <div class="guarantee"><div class="seal">60-DAY<br>GUARANTEE</div><div><b>Love it or your money back</b><p>Try the GleamJet in your own bathroom for 60 days. If it does not save you time, return it in any condition for a full refund. Northwick Home covers return shipping.</p></div></div>
+  </section>
+
+  <section class="box" id="reviews">
+    <h2>What owners say</h2>
+    <div class="review" style="border:0;padding-top:0;margin-top:0"><div class="who"><img src="img/avatar-1.jpg" alt="" width="36" height="36"><div><b>Denise Okafor-Hale</b><span>Verified buyer · Austin, TX</span></div></div><p>“I have arthritis in both hands and had basically stopped cleaning the shower myself. This gave that back to me.”</p></div>
+    <div class="review"><div class="who"><img src="img/avatar-2.jpg" alt="" width="36" height="36"><div><b>Tom Brannigan</b><span>Verified buyer · Leeds, UK</span></div></div><p>“Bought it for the grout, kept it for the oven door. The dome brush went straight through baked-on grease.”</p></div>
+    <div class="review"><div class="who"><img src="img/avatar-3.jpg" alt="" width="36" height="36"><div><b>Priya Venkataraman</b><span>Verified buyer · Toronto, ON</span></div></div><p>“Cleaning wise it is excellent. My landlord asked what I used on the tiles.”</p></div>
+  </section>
+
+  <section class="box" id="faq">
+    <h2>Questions before you order</h2>
+    <details open><summary>When will my order ship?</summary><p>Orders ship within 24 hours from a regional warehouse. Most customers receive their GleamJet within 3 to 6 business days.</p></details>
+    <details><summary>Is shipping really free?</summary><p>Yes. Free standard shipping is included on every package during the launch offer.</p></details>
+    <details><summary>What is included in the box?</summary><p>The GleamJet handle, the telescoping extension pole, four brush heads plus a free spare set, and a USB-C charging cable.</p></details>
+    <details><summary>How do returns work?</summary><p>Email us within 60 days for a prepaid return label. Refunds are issued to the original payment method within 5 business days of receipt.</p></details>
+  </section>
+</main>
+<footer>Demonstration checkout page. No orders are processed and no data is stored. Brand and product are fictional and used for internal product demonstration only.<br>© 2026 Northwick Home · Privacy · Terms · Refund Policy</footer>
+<script>
+(function(){var t=598;var el=document.getElementById("t");setInterval(function(){t--;if(t<0)t=598;var m=Math.floor(t/60),s=t%60;el.textContent=(m<10?"0":"")+m+":"+(s<10?"0":"")+s},1000);
+document.getElementById("checkout").addEventListener("submit",function(e){e.preventDefault()});
+document.querySelectorAll(".pack").forEach(function(p){p.addEventListener("click",function(){document.querySelectorAll(".pack").forEach(function(q){q.classList.remove("on")});p.classList.add("on")})});
+document.querySelectorAll(".pay label").forEach(function(p){p.addEventListener("click",function(){document.querySelectorAll(".pay label").forEach(function(q){q.classList.remove("on")});p.classList.add("on")})})})();
+</script>
+</body>
+</html>
